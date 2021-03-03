@@ -6,3 +6,4 @@ Contains code to map Cross-Spectra EEG data to an Euclidean space following this
 4-Find mean of the Manifolds          
 5-Map from Manifold space to Eucliden space using the methods described in Pennec et al., 2006
 
+
