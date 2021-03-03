@@ -1,5 +1,5 @@
 # Riemannian-Manifold-Multinational-Data
-Contains code to map Cross-Spectra EEG data to an Euclidean space following this steps:
+Contains code to map Cross-Spectra EEG data to an Euclidean space following this steps:          
 1-Apply average reference to the Cross-Spectra data (eliminate one row and one column to each matrix)          
 2-Apply Hilbert-Smith regularization method described in Schneider-Luftman & Walden, 2015          
 3-Group data by Manifolds of single frequencies for all subjects          
