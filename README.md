@@ -7,5 +7,5 @@ Contains code to map Cross-Spectra EEG data to an Euclidean space following this
 5-Map from Manifold space to Eucliden space using the methods described in Pennec et al., 2006
 
 
-The main script is RegCrossSubj.m
+The main script is RegCrossSubjs.m
 
