@@ -1,9 +1,29 @@
-# Riemannian-Manifold-Multinational-Data
-Contains code to map Cross-Spectra EEG data to an Euclidean space following this steps:          
-1-Apply average reference to the Cross-Spectra data (eliminate one row and one column to each matrix)          
-2-Apply Hilbert-Smith regularization method described in Schneider-Luftman & Walden, 2015          
-3-Group data by Manifolds of single frequencies for all subjects          
-4-Find mean of the Manifolds          
-5-Map from Manifold space to Eucliden space using the methods described in Pennec et al., 2006
+## CrossSpecRiemanMap
+preQEEGspec :
+1- quality EEG by viewer (Babayan et al., 2019)
+2- save all figures and then good in to crossponding dataset folder, bad in to disqEEGMultiData
+if want to check on online, ture on 'puse'
+
+preproCrossM:
+1- transfer CrossM reference to agerage 
+2- global scale factorization of CrossM of each subject 
+3- Hibert-Smith regurization Schneider-Luftman & Walden, 2015  
+5-save all subjects into one folder information including proprocessed CrossM, age, sex, country, devices 
+
+mainLogMap:
+1- group data by Manifolds of single frequencies for all subjects    
+2- calculate Riemann mean
+3- logMap form manifold to Eculiden sapce  Pennec et al., 2006
+
+
+
+external:
+mmtoobox2.3
+QEEGT-Toolbox-master
+
+
+
+##Carlos&Min&YingWang
+# 2021/3/11
 
 
